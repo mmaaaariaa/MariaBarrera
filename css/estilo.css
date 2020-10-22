@@ -1,0 +1,248 @@
+*{
+    padding: 0px;
+    margin: 5px;
+}
+.contenedor{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+    overflow:hidden;
+}
+header{
+    width: 100%;
+}
+#btn-menu{
+    display: none;
+}
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-left: 1px solid #E0F8FC;
+}
+header label:hover{
+    cursor: pointer;
+    background-color:#E0F8FC;
+}
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.menu li:hover{
+    background: cadetblue;
+}
+.menu li a{
+    display: block;
+    padding: 10px 15px;
+    color: #E0F8FC;
+    text-decoration: none;
+}
+@media (max-width:200px 400px){
+
+}
+.logo{
+    margin-top: 10%;
+
+}
+.corporativa{
+    margin-top: -50%;
+    margin-left: 50%;
+}
+.caja2{
+    width: 90%;
+    border-radius: 20px;
+    float: right;
+    margin-right: 5%;
+}
+.habilidades{
+    align-items: center;
+    margin-top: auto;
+}
+.texto2{
+     font-size: 20px;
+     color: white;
+     font-family: 'Dosis', sans-serif;
+}
+.perfil{
+    animation-delay: 2s;
+}
+.caja2{
+    animation-delay: 2s;
+}
+.habilidades{
+    margin-top: 28%;
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 60px;
+}
+.habilidades{
+    animation-delay: 3s;
+}
+.tecnica{
+    animation-delay: 4s;
+}
+.tecnica{
+    margin-left: 20%;
+    margin-top: auto;
+    justify-content: center;
+}
+@media(max-width:400px){
+}
+.formacion{
+    margin-left: 50%;
+    margin-top: 10;
+}
+.formacion{
+    animation-delay: 5s;
+}
+.academica{
+    margin-left: 30%;
+    margin-top: -20%;
+}
+.academica{
+    animation-delay: 5s;
+}
+.experiencia{
+   margin-left: 30%;
+   margin-top: 10%;
+}
+.experiencia{
+    animation-delay: 6s;
+}
+.laboral{
+    margin-left: 50%;
+    margin-top: -20%;
+}
+.laboral{
+    animation-delay: 6s;
+}
+/*galeria*/
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper div{
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    cursor: pointer;
+    border-top: 5px solid transparent;
+}
+.wrapper  div:hover{
+    border-top: 5px solid white;
+}
+.box-1{
+    background-image: url(../img/1.png);
+    background-position: center;
+    background-size: cover;
+    transition: all 600ms cubic-bezier(1,0,0,1);
+;
+}
+.box-1.open{
+    width: 500px;
+    height: 300px;
+
+}
+.box-2{
+    background-image: url(../img/2.png);
+    background-position: center;
+    background-size: cover;
+    transition: all 600ms cubic-bezier(1,0,0,1);
+
+}
+.box-2.open{
+    width: 500px;
+    height: 300px;
+
+}
+.box-3{
+    background-image: url(../img/3.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all 600ms cubic-bezier(1,0,0,1);
+
+}
+.box-3.open{
+    width: 500px;
+    height: 300px;
+
+}
+.box-4{
+    background-image: url(../img/4.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all 600ms cubic-bezier(1,0,0,1);
+
+}
+.box-4.open{
+    width: 500px;
+    height: 300px;
+
+}
+.box-5{
+    background-image: url(../img/5.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all 600ms cubic-bezier(1,0,0,1);
+
+}
+.box-5.open{
+    width: 500px;
+    height: 300px;
+
+}
+.box-6{
+    background-image: url(../img/6.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all 600ms cubic-bezier(1,0,0,1);
+
+}
+.box-6.open{
+    width: 500px;
+    height: 300px;
+
+}
+.box-7{
+    background-image: url(../img/7.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all 600ms cubic-bezier(1,0,0,1);
+
+}
+.box-7.open{
+    width: 500px;
+    height: 300px;
+
+}
+.galeria{
+    color: black;
+    font-size: 20px;
+    width: 70%;
+    height: 90%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: 'Dosis', sans-serif;
+}
+<!-----------------video--------------->
+.titulo{
+    font-family: 'Courier New', Courier, monospace;
+}
+#video, video{
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 90%;
+    height: 70%;
+
+}
+

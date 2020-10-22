@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">  
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+  <title>MARÍA BARRERA</title>
+</head>
+<!-------------------------MENU--------------------------------------------->
+<body>
+  <div class="contenedor" style="background-color: black ;">
+    <header>
+      <nav class="menu">
+        <ul>
+          <li><a href="#INICIO">INICIO</a></li>
+          <li><a href="#SOBREMI">SOBRE MI</a></li>
+          <li><a href="#PORTAFOLIO">PORTAFOLIO</a></li>
+          <li><a href="#CONTACTO">CONTACTO</a></li>
+      </nav>
+    </header>
+      <div class="row" id="INCIO">
+        <div class="col-md-12 logo wow animate__animated animate__heartBeat">
+          <center>
+           <a href="#img"> <img src="img/logo_portafolio.png" width="40%" height="40%">
+           </a>
+          </center>
+        </div>
+      </div>
+  <!-------------------------SOBRE MI--------------------------------------------->
+      <div class="col-md-12 pc wow animate__animated animate__flash" style="text-align: center">
+          <p id="img" class="img"><img src="img/perfil.png" width="30%" height="30%">
+          <img src="img/corporativa.gif" width="30%" height="30%">
+        </div>
+        <div class="row" id="SOBREMI">
+            <div class="col-md-6 caja2 wow animate__animated animate__slideInRight"
+               style="background-color: cadetblue ">
+               <div class="texto2" style="text-align: right">
+                 <b>
+                  TE CUENTO SOBRE MI
+                  <br>
+                  Soy una mujer amante del arte, disfruto del dibujo y verlo digitalizado hace que se vea
+                  más atractivo para mí. Desde muy pequeña he evidenciado mi creatividad,me gusta manejar 
+                  colores poco saturados en diseños de mi autoria. Soy muy creyente de la frase “entre menos 
+                  más” siento que entre mas conciso y simple el diseño puedo hacer llegar el mensaje que quiero dar.
+                  </b>
+               </div>
+            </div> 
+        </div>
+  <!-------------------------HABILIDADES--------------------------------------------->
+  <div class="row">
+    <div class="col-md-6 tecnica wow animate__animated animate__zoomIn"> 
+      <img src="img/duras.png " width="300" height="250">
+        <img src="img/blandas.png" width="300" height="250">
+    </div>
+  </div>
+<!-------------------------FORMACION ACADEMICA--------------------------------------------->
+<div class="row">
+     <div class="col-md-6 formacion wow animate__animated animate__bounceInRight">
+          <img src="img/formacion.png" width="40%" height="40%">     
+     </div>
+     <div class="col-md-6 academica wow animate__animated animate__bounceInLeft">
+      <img src="img/academica.png" width="20%" height="20%">
+     </div>
+<!-------------------------EXPERIENCIA LABORAL--------------------------------------------->
+     <div class="col-md-6 experiencia wow animate__animated animate__bounceInRight">
+      <img src="img/experiencia.png" width="20%" height="20%">     
+ </div>
+ <div class="col-md-6 laboral wow animate__animated animate__bounceInLeft">
+  <img src="img/laboral.png" width="40%" height="40%">
+ </div>
+<!-------------------------GPORTAFOLIO--------------------------------------------------------->
+<div class="row" id="PORTAFOLIO">
+  <div class="col-md-12 galeria animate__animated animate__backInLeft" style="background-color: #E0F8FC;">
+    <h5>GALERIA</h5>
+</div>
+<div class="wrapper">
+  <div class="box-1"></div>
+  <div class="box-2"></div>
+  <div class="box-3"></div>
+  <div class="box-4"></div>
+  <div class="box-5"></div>
+  <div class="box-6"></div>
+  <div class="box-7"></div>
+</div>
+</div>
+ <!----------------------------video-------------------------------------------------->
+ <div class="row">
+   <div class="col-md-12 titulo" style="background: #E0F8FC; font-family: 'Dosis', sans-serif; font-size: 20px; width: 70%; height: 70%; text-align: center; border-radius: 5px">
+     <h6>DE MI PARA USTEDES</h6>
+   </div>
+ </div>
+ 
+<div id="video">
+  <video controls preload="auto" loop style="width: 50%; height: 70%;">
+    <source src="video/video_portafolio.mp4" type="video/mp4">
+    <source src="video/video_portafolio.ogv" type="video/ogv">
+    <source src="video/video_portafolio.webm" type="video/webm">
+  </video>
+
+</div>
+
+<!----------------------------CONTACTAME-------------------------------------------------->
+<div class="row">
+  <div class="col-md-12 CONTACTO" style="background: #E0F8FC; font-family: 'Dosis', sans-serif; font-size: 20px; width: 70%; height: 70%; text-align: center; border-radius: 5px">
+    <h7> - EN CONSTANTE EVOLUCIÓN
+      <br>
+       ME TU IDEA A LA REALIDAD
+    </h7>
+  </div>
+</div>
+<div class="contactame">
+<div id="after_submit"></div>
+    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+        <div class="row" style="color: #E0F8FC;">
+          <label class="required" for="name">NOMBRE::</label><br />
+          <input id="name" class="input" name="nomvre" type="text" value="" size="30"  /><br />
+          <span id="name_validation" class="error_message"></span>
+        </div>
+        <div class="row"style="color: #E0F8FC;" ba>
+          <label class="required" for="Emaill">EMAIL:</label><br />
+          <input id="email" class="input" name="email" type="text" value="" size="30" /> <br />
+          <span id="email_validation" class="error_message"></span>
+        </div>
+        <div class="row"style="color: #E0F8FC;">
+          <label class="required" for="Mensaje">¡EN QUETE PUEDO AYUDAR!:</label><br />
+          <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+          <span id="message_validation" class="error_message"></span>
+        </div>
+        <input id="submit_button" type="submit" value="Send email" />
+    </form>
+</div>
+</div>
+</body>
+</html>
